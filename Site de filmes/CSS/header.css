@@ -1,0 +1,91 @@
+header{
+    background-color: var(--header);
+    display: grid;
+    grid-template-columns: 280px 1fr 300px;
+    align-items: center;
+    justify-content: center;  
+    min-height: 10vh;
+    padding: 0 12px;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+header .logo img{
+    width: 30%;
+}
+header .logo p{
+    font-size: 2.0rem;
+    font-weight: 700;
+    width: 100%;
+    margin-left: 1.6rem;
+    letter-spacing:0.1rem;
+    color:deeppink;
+}
+header .menu,
+.menu nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+}
+header .menu nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px;
+}
+header .menu nav ul a {
+    font-size: 1.8rem;
+    font-weight: 700;
+    position: relative;
+}
+header .menu nav ul a::after{
+    content: "";
+    width:0%;
+    height: 2px;
+    background-color: deeppink;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: all 0.4s ease 0s;
+}
+header .menu nav ul a:hover::after{
+    width: 100%;
+}
+header .filtro{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+header .filtro input{
+    padding: 12px 24px;
+    outline: none;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+header .filtro i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+header .filtro i:first-child{
+    left: 14%;
+}
+header .filtro i:last-child{
+    right: 14%;
+}
+.gse-search{
+    background-color: var(--header);
+    
+}

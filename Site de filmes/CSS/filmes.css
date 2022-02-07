@@ -1,0 +1,28 @@
+:root{
+    --header:#C0C0C0;
+    --body:#EEEEEE;
+    --text:#2c2a2a;
+    --title:#1D2E41;
+}
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+    border:none;}
+html{
+    font-size:62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{list-style: none;
+color:var(--text);}
+a{
+    color: var(--text);
+    text-decoration: none;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+p{
+    font-size:2rem;
+}

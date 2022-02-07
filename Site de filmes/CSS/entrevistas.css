@@ -1,0 +1,57 @@
+.entrevistas{
+    min-height: 90vh;
+    background-color: #EEEEEE;
+    display: grid;
+    grid-template-rows: 10rem 1fr 10rem;
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+    width: 100%;
+}
+.entrevistas h1{
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.entrevis{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap:2rem;
+}
+.entrevis div iframe{
+    width:100%;
+}
+.entrevis1{
+    display:grid;
+    grid-template-rows: 0.5fr 0.1fr 0.1fr;
+}
+.nomefilme {
+    font-size: 2.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.diretor{
+    font-size:1.8rem;
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.entrevis2 {
+    display:grid;
+    grid-template-rows: 0.5fr 0.1fr 0.1fr;
+}
+.entrevis3 {
+    display:grid;
+    grid-template-rows: 0.5fr 0.1fr 0.1fr;
+}
+.entrevis .botao p{
+    background-color: black;
+    color:white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.entrevis .botao i{
+    position: absolute;
+    left:83%;
+}

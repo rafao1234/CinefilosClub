@@ -1,0 +1,68 @@
+.desta{
+    min-height: 90vh;
+    width: 100%;
+    background-color: transparent;
+    display: grid;
+    align-items: flex-start;
+    grid-template-rows: 70px 1fr 50px;
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+}
+.headerd{
+    display: grid;
+    widht:100%;
+    align-items: center;
+    justify-content:center;
+    grid-template-columns: 1fr 1fr;
+}
+.selecionar{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+.selecionar select{
+    font-size: 2rem;
+    border: 1px solid black;
+    padding-right: 10rem;
+    background: transparent;
+    border-radius: 8px;
+}
+h3{
+    font-size: 4rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    widht: 100%;
+}
+.posters{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    gap: 2.5rem;
+    padding-top: 3rem;
+}
+.posters img{
+    width: 36rem;
+    height: 55rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.botao{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+}
+.botao p{
+    background-color: black;
+    color:white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.botao i{
+    left:85.5%;
+}
+a{
+    font-size: 3rem;
+    background-color: var(--header);
+    border: 1px transparent;
+    border-radius:4px;
+}

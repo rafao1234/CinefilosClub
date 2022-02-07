@@ -1,0 +1,169 @@
+.novidades{
+    width:100%;
+    max-width: 980px;
+    display:grid;
+    grid-template-rows: 0.15fr 1fr;
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+    min-height: 90vh;
+}
+.headern{
+    display:grid;
+    grid-template-columns: 1fr 0.48fr;
+    align-items:center;
+    justify-content:flex-start;
+    font-size: 4rem;
+    height:40px;
+}
+.headern p{
+    font-size: 4rem;
+}
+.textos{
+    display:grid;
+    grid-template-columns: 1fr 0.6fr;
+    width: 100%;
+    gap:30px;
+}
+.noticias{
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+    gap: 7rem;
+    padding-bottom: 4rem;
+}
+.noticia1{
+    display:grid;
+    grid-template-columns:0.8fr 1.2fr;
+    gap: 5px;
+}
+.imagensn{
+    width: 40rem;
+    height: 30rem;
+    border: 1px solid transparent;
+    border-radius:5px;
+}
+.noticias h1{
+    font-size: 2.2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+}
+.conteudo1{
+    display:grid;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+}
+.tag{
+    background-color:gray;
+    color:white;
+    border: 1px solid transparent;
+    border-radius:5px;
+    font-size: 1.8rem;
+    padding: 0.6rem 1.6rem;
+}
+.tags1{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap:10px;
+}
+.noticia2{
+    display:grid;
+    grid-template-columns:0.8fr 1.2fr;
+    gap: 5px;
+}
+.conteudo2{
+    display:grid;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+}
+.tags2{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap:10px;
+}
+.noticia3{
+    display:grid;
+    grid-template-columns:0.8fr 1.2fr;
+    gap: 5px;
+}
+.conteudo3{
+    display:grid;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+}
+.tags3{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap:10px;
+}
+.informacoesa{
+    display:grid;
+    grid-template-rows: 0.2fr 0.4fr 0.2fr;
+    width: 100%;
+    gap:15px;
+}
+.sobre{
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.sobre h1{
+    font-size: 3rem;
+
+}
+.sobre p{
+    font-size: 2.5rem;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.editorial{
+    display: grid;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.editorial h1{
+    font-size: 2.5rem;
+}
+.redator{
+    display:flex;
+    font-size:1.5rem;
+}
+.pesquisa{
+    display:flex;
+    font-size:1.5rem;
+}
+.gerentegeral{
+    display:flex;
+    font-size:1.5rem;
+}
+.redessociais{
+    display:grid;
+    grid-template-rows: 0.4fr 1fr;
+}
+.redessociais h1{
+    font-size:2.5rem;
+}
+.logosrede{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap: 40px;
+}
+.logorede{
+    width:10rem;
+    height:10rem;
+}
+.noticias .linha{
+    position:relative;
+}
+.noticias .linha::after{
+    position:absolute;
+    content:"";
+    background: gray;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    bottom: -40px;
+}
+.noticias .linha:nth-child(3)::after{
+    display: none;
+}

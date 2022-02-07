@@ -1,0 +1,74 @@
+section.lançamentos{
+    min-height:90vh;
+    background-color: #EEEEEE;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 150px 1fr 50px;
+}
+section.lançamentos h1{
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    font-size: 4rem;
+    margin: 4rem 0;
+}
+.conteudo{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px,1fr));
+    gap: 12px;
+    width:100%;
+    align-items: flex-start;
+    height:100%;
+    padding: 0 2.5rem;
+}
+.video{
+    width:100%;
+}
+.video iframe{
+    width:100%;
+}
+.informacoes{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 2rem 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    width:100%; 
+}
+.informacoes h2{
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 3rem;
+}
+.informacoes p{
+    align-items: center;
+    font-size: 2rem;
+}
+.sinopse{
+    padding-right: 1rem;
+    justify-content: flex-start;
+}
+.dre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elenco{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    justify-self: flex-start;
+}
+.atores{
+    display:flex;
+}
+.avaliacao{
+    display:flex;
+}
+.bolinha{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    gap: 1rem;
+}

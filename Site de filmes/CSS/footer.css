@@ -1,0 +1,19 @@
+footer{
+    background-color: var(--header);
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.2fr;
+    align-items: center;
+    justify-content: center;  
+    min-height: 10vh;
+    padding: 0 12px;
+    width: 100%;
+}
+footer p{
+    align-items: center;
+    justify-content: center;
+    padding-left: 15rem;
+}
+.logofooter{
+    widht: 100px;
+    height: 100px;
+}

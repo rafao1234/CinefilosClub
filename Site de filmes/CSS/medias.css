@@ -1,0 +1,42 @@
+@media (max-width: 1360px){
+    header{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .filtro,.filtro input,.filtro i{
+        display:none;
+    }
+    .menu,.menu nav,.menu nav ul,.menu nav ul a{
+        display:none;
+    }
+    header a{
+        display:flex;
+        justify-self: center;
+        width:100%;
+    }
+}
+@media (max-width:1300px){
+    .novidades{
+        grid-template-rows: 0.15fr 1fr 1fr;
+    }
+    .informacoesa{
+        grid-row: 3/4;
+        position: relative;
+    }
+    .informacoesa::before{
+        content:"Sobre";
+        font-size:4rem;
+        position:absolute;
+        left:0;
+        top:-70px;
+        font-weight: 700;
+    }
+    .novidades .headern p:nth-child(2){
+        display:none;
+    }
+    .noticias{
+    
+    }
+    
+}

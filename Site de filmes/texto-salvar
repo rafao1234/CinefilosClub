@@ -1,0 +1,241 @@
+<section class="novidades">
+        <div class="headern">
+            <p><strong>Novidades</strong></p>
+            <p><strong>Sobre</strong></p>
+        </div>
+          <div class="textos">
+              <div class="noticias">
+                  <div class="noticia1 linha">
+                      <img class="imagensn" src="nomadland.jpeg">
+                         <div class="conteudo1">
+                            <h1><Strong>Nomadland ganha o oscar de melhor filme de 2021</Strong></h1>
+                            <p>Longa sobre nômades fez de Chloé Zhao a segunda mulher a ganhar categoria de direção. Anthony Hopkins, Frances McDormand, Daniel Kaluuya e Youn Yuh-jung venceram.</p>
+                            <div class="tags1">
+                                <p class="tag">Oscar</p>
+                                <p class="tag">HollyWood</p>
+                                <p class=tag>Premiação</p>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="noticia2 linha">
+                      <img class="imagensn" src="godzillanoticia.jpeg">
+                        <div class="conteudo2">
+                            <h1><Strong>Diretor quer reavivar MonsterVerse após ‘Godzilla vs Kong’</Strong></h1>
+                            <p>Por conta do grande sucesso de "Godzilla vs Kong", o diretor Adam Wingard revelou em entrevista que voltaria a dirigir um filme do monsterverse.</p>
+                            <div class="tags2">
+                                <p class="tag">MonsterVerse</p>
+                                <p class="tag">Adam Wingard</p>
+                                <p class="tag">Godzilla</p>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="noticia3 linha">
+                    <img class="imagensn" src="filme-demonslayer.jpg">
+                        <div class="conteudo2">
+                            <h1><Strong>Demon Slayer: Estreia do filme é um sucesso nos Estados Unidos</Strong></h1>
+                            <p>Após o seu sucesso crescente na Ásia, o filme está ganhando popularidade no ocidente. Demon Slayer: Mugen Train estreou dia 23 de abril nos Estados Unidos e ficou em primeiro lugar nas bilheterias.</p>
+                            <div class="tags3">
+                                <p class="tag">Anime</p>
+                                <p class="tag">Bilheteria</p>
+                                <p class="tag"> Demon Slayer</p>
+                            </div>
+                        </div>
+                  </div>
+              </div>
+              <div class="informacoesa">
+                    <div class="sobre">
+                        <h1>Sobre Nós</h1>
+                        <p>O Cinéfilos Club é uma plataforma sobre Cinema, criada por uma equipe de Cinéfilos, para todos os Cinéfilos do Brasil. Nesse Site transparecemos nosso amor e apreço pelo cinema, além de fazer o nosso melhor para manter todos atualizados sobre as últimas novidades e lançamentos do mundo de hollywood.</p>
+                    </div>
+                    <div class="editorial">
+                        <h1>Editorial</h1>
+                        <div class="redator">
+                          <i class="material-icons">perm_identity</i><P><Strong>Redação:</Strong>Felipe Neto</P>
+                        </div>
+                        <div class="pesquisa">
+                            <i class="material-icons">perm_identity</i><P><Strong>Pesquisa:</Strong>Ricardo Smith</P>
+                        </div>
+                        <div class="gerentegeral">
+                            <i class="material-icons">perm_identity</i><P><Strong>Gerente Geral:</Strong>Rafael Lopes</P>
+                        </div>
+                    </div>
+                    <div class="redessociais">
+                        <h1>Redes Sociais:</h1>
+                     <div class="logosrede">
+                            <img class="logorede" src="facebook.png">
+                            <img class="logorede" src="twitter.png">
+                            <img class="logorede" src="logotipo-do-instagram.png">
+                     </div>
+                    </div>
+              </div>
+          </div>
+    </section>
+  
+    .novidades{
+    width:100%;
+    display:grid;
+    grid-template-rows: 0.15fr 1fr;
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+    min-height: 90vh;
+}
+.headern{
+    display:grid;
+    grid-template-columns: 0.6fr 1fr;
+    align-items:center;
+    justify-content:flex-start;
+    font-size: 4rem;
+    height:40px;
+}
+.headern p{
+    font-size: 4rem;
+}
+.textos{
+    display:grid;
+    grid-template-columns: 1fr 0.6fr;
+    width: 100%;
+    gap:30px;
+}
+.noticias{
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+    gap: 7rem;
+    padding-bottom: 4rem;
+}
+.noticia1{
+    display:grid;
+    grid-template-columns:0.8fr 1.2fr;
+    gap: 5px;
+}
+.imagensn{
+    width: 40rem;
+    height: 30rem;
+    border: 1px solid transparent;
+    border-radius:5px;
+}
+.noticias h1{
+    font-size: 2.2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+}
+.conteudo1{
+    display:grid;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+}
+.tag{
+    background-color:gray;
+    color:white;
+    border: 1px solid transparent;
+    border-radius:5px;
+    font-size: 1.8rem;
+    padding: 0.6rem 1.6rem;
+}
+.tags1{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap:10px;
+}
+.noticia2{
+    display:grid;
+    grid-template-columns:0.8fr 1.2fr;
+    gap: 5px;
+}
+.conteudo2{
+    display:grid;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+}
+.tags2{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap:10px;
+}
+.noticia3{
+    display:grid;
+    grid-template-columns:0.8fr 1.2fr;
+    gap: 5px;
+}
+.conteudo3{
+    display:grid;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+}
+.tags3{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap:10px;
+}
+.informacoesa{
+    display:grid;
+    grid-template-rows: 0.2fr 0.4fr 0.2fr;
+    width: 100%;
+    gap:15px;
+}
+.sobre{
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.sobre h1{
+    font-size: 3rem;
+
+}
+.sobre p{
+    font-size: 2.5rem;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.editorial{
+    display: grid;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.editorial h1{
+    font-size: 2.5rem;
+}
+.redator{
+    display:flex;
+    font-size:1.5rem;
+}
+.pesquisa{
+    display:flex;
+    font-size:1.5rem;
+}
+.gerentegeral{
+    display:flex;
+    font-size:1.5rem;
+}
+.redessociais{
+    display:grid;
+    grid-template-rows: 0.4fr 1fr;
+}
+.redessociais h1{
+    font-size:2.5rem;
+}
+.logosrede{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap: 40px;
+}
+.logorede{
+    width:10rem;
+    height:10rem;
+}
+.noticias .linha{
+    position:relative;
+}
+.noticias .linha::after{
+    position:absolute;
+    content:"";
+    background: gray;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    bottom: -40px;
+}
+.noticias .linha:nth-child(3)::after{
+    display: none;
+}
